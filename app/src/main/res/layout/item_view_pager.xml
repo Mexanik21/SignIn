@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Your Favourite Dishes"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Messages is a simple, helpful messaging app that keeps you connected with the people who matter most."
+            android:textSize="10sp"
+            android:textStyle="bold"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
